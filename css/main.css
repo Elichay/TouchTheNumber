@@ -1,0 +1,114 @@
+
+.frame{
+    /* max-width: 600px; */
+    width: 430px;
+    height: 600px;
+    /* position: absolute; */
+    /* left: 33%; */
+    text-align: center;
+    margin: auto;
+    border: 16px solid gold;
+    border-radius: 4px;
+    margin:10px;   
+    background-color: rgb(230, 230, 112);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.header{
+    height: 50px;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: underline;
+    font-size:30px ;
+    font-weight: bold;
+    color: rgb(76, 76, 8);
+}
+
+.level{
+    height: 50px;
+    margin: auto;
+    margin-left: 15px;
+    margin-top: 5px;
+    text-align: left;
+    font-size:20px ;
+    font-weight: bold;
+    color: rgb(76, 76, 8);
+}
+
+/* .levels{
+    background-color: rgb(230, 230, 112);
+
+
+} */
+
+.timer{
+    height: 50px;
+    margin: auto;
+    margin-left: 15px;
+    margin-top: 5px;
+    text-align: left;
+    line-height: 26px;
+    font-size:20px ;
+    font-weight: bold;
+    color: rgb(76, 76, 8);
+}
+
+.digits{
+
+    font-size:25px ;
+    color: rgb(232, 112, 7);
+
+}
+.numbers{
+    /* max-width: 380px; */
+    max-width: 380px;
+    /* max-height: 400px; */
+    max-height: 388px;
+    /* position: absolute; */
+    /* left: 33%; */
+    text-align: center;
+    margin: auto;
+    border: 3px solid gold;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 4px;
+    /* margin:20px;        */
+    background-color: rgb(228, 228, 159);
+}
+
+
+table{
+
+  text-align: center;
+  margin: auto;
+  border-color: yellow;
+
+} 
+
+
+.cell{
+    
+height: 32px;
+width: 32px;
+font-weight: bold;
+background-color: lightgoldenrodyellow;
+cursor: pointer;
+color: rgb(38, 96, 11);
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+.cell:hover{
+    color: rgb(76, 122, 55);
+    background-color: rgb(230, 230, 112);
+}
+
+.clicked{
+
+    background-color: rgb(195, 195, 48);
+}
+
+/* .clicked:hover{
+    background-color: rgb(195, 195, 48);
+
+} */

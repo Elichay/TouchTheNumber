@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>touch_the_number</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body onload="onInit()">
+
+<div class="frame">
+    <!-- <button>New Game</button> -->
+<div class="header">Touch The Number!</div>
+    <div class="level">
+        <!-- <h3>Choose Your Level:</h3> -->
+        <label for="levels">Choose Level:</label>
+        <select name="levels" id="levels" class="levelsList">
+            <option value="4">Easy (4x4)</option>
+            <option value="5">Medium (5x5)</option>
+            <option value="6">Hard (6x6)</option>
+            <option value="7">Expert (7x7)</option>
+            <option value="8">Extream (8x8)</option>
+            <input type="submit" value="Submit" onclick="onChooseLevel()">
+        </select>
+
+    </div>
+
+    <div class="timer">Timer:</div>
+
+    <div class="numbers">
+        <table border="1" cellpadding="6">
+            <tbody class="board">
+    
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+    
+
+<script src="js/util.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
